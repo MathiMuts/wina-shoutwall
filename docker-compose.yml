@@ -12,7 +12,7 @@ services:
       - /app/theme/static_src/node_modules
       - /app/theme/static
       - static_volume:/app/staticfiles
-      - db_volume:/app/db.sqlite3
+      - db_volume:/app/db
     env_file:
       - .env
     environment:
