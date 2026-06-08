@@ -15,7 +15,7 @@ INSTALLED_APPS = [
     'tailwind',
     'theme',
 
-    'pauze',
+    'shoutwall',
 ]
 
 TAILWIND_APP_NAME = 'theme'

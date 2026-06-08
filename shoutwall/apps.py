@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class PauzeConfig(AppConfig):
+class ShoutwallConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'pauze'
+    name = 'shoutwall'

@@ -10,7 +10,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('django.contrib.auth.urls')),
 
-    path("", include("pauze.urls")),
+    path("", include("shoutwall.urls")),
 ]
 
 if DEBUG:
